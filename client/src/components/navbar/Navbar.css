@@ -1,0 +1,65 @@
+.navcontainer {
+  display: flex;
+  align-items: center ;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.navtitle {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.dropdown{
+   color: white;
+   
+  }
+.dropdowntext{
+  margin-right:10px ;
+  font-size: 20px ;
+  font-weight: bold;
+}
+.dropdownmenu{
+  height:30px ;
+  width:100px ;
+}
+.navbutton {
+  display: flex ;
+  margin-top: 10px;
+  color: white;
+ 
+}
+.registerbtn {
+  margin-left: 40px;
+}
+.button {
+  transition-duration: 0.4s;
+  background-color: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 30%;
+  font-weight: bold;
+  cursor: pointer;
+  }
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.searchdivform{
+    display: flex;
+    
+  }
+  .serachinput{
+    height: 30px ;
+   margin-right:5px ;
+   border-radius:10px ;
+   border: none;
+   width: 200px ;
+  }
+  .searchbtn{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+  }
